@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/dartagnan/Projetos/MyProjectNHibernate2/MyProjectNHibernate2.csproj": {}
+  },
+  "projects": {
+    "/home/dartagnan/Projetos/MyProjectNHibernate2/MyProjectNHibernate2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dartagnan/Projetos/MyProjectNHibernate2/MyProjectNHibernate2.csproj",
+        "projectName": "MyProjectNHibernate2",
+        "projectPath": "/home/dartagnan/Projetos/MyProjectNHibernate2/MyProjectNHibernate2.csproj",
+        "packagesPath": "/home/dartagnan/.nuget/packages/",
+        "outputPath": "/home/dartagnan/Projetos/MyProjectNHibernate2/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/dartagnan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
